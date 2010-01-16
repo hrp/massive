@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 
+
 def massive(word)
   #add spaces
   word_spaced = String.new
@@ -14,6 +15,7 @@ def massive(word)
   end
   return body
 end
+
 
 get '/:word' do
   massive(params[:word])
