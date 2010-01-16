@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sinatra'
 
 
+
 def massive(word)
   #add spaces
   word_spaced = String.new
