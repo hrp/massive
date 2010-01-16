@@ -9,7 +9,7 @@ def massive(word)
   end
   #repeat
   body = String.new
-  9999.times do
+  2200.times do
     body += word_spaced
   end
   return body
